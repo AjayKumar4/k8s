@@ -27,19 +27,19 @@ Install `Go` https://golang.org/dl/
 Run this application with:
 
 ```
-    go build -o app .
-    ./app
+    go build -o k8s .
+    ./k8s
 ```
 
 Run this application with custom parameter:
 
 ```
-    go build -o app .
+    go build -o k8s .
     ./app -namespace=sock-shop -kubeconfig=~/.kube/config
 ```
 or
 ```
-    go build -o app .
-    ./app -namespace=sock-shop
+    go build -o k8s .
+    ./k8s -namespace=sock-shop
 ```
 
